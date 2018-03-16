@@ -26,3 +26,5 @@ shout("hello");
 whisper("HELLO")
 logShout("hello");
 logWhisper("HELLO");
+sayHiToGrandma("hello");
+sayHiToGrandma("HELLO");
