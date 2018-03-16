@@ -6,9 +6,12 @@ function whisper(quiet) {
   return quiet.toLowerCase();
 }
 
-function () {
-  
+function logWhisper(quiet) {
+  console.log(quiet.toLowerCase());
 }
+
+
 
 shout("hello");
 whisper("HELLO")
+logWhisper("HELLO");
