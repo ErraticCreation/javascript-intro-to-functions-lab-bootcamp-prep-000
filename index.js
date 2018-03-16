@@ -16,10 +16,13 @@ function logWhisper(quiet) {
 
 function sayHiToGrandma(canSheHear) {
   if (canSheHear == canSheHear.toLowerCase) {
-    console.log("I can't hear you!");
+    return "I can't hear you!";
   } else if (canSheHear == canSheHear.toUpperCase()) {
-    console.log("YES INDEED!");
+    return "YES INDEED!";
+  } else if (canSheHear == "I love you, Grandma.") {
+    return "I love you, too.";
   }
+  
 }
 
 shout("hello");
@@ -28,3 +31,4 @@ logShout("hello");
 logWhisper("HELLO");
 sayHiToGrandma("hello");
 sayHiToGrandma("HELLO");
+sayHiToGrandma("I love you, Grandma.");
