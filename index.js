@@ -1,5 +1,5 @@
 function shout(scream) {
-  console.log(scream.toUpperCase());
+  return scream.toUpperCase();
 }
 
 shout("hello");
