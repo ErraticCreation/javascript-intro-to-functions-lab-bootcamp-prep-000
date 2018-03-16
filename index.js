@@ -14,9 +14,11 @@ function logWhisper(quiet) {
   console.log(quiet.toLowerCase());
 }
 
-function sayHiToGrandma(cantHear) {
-  if (cantHear == cantHear.toLowerCase) {
+function sayHiToGrandma(canSheHear) {
+  if (canSheHear == canSheHear.toLowerCase) {
     console.log("I can't hear you!");
+  } else if (canSheHear == canSheHear.toUpperCase()) {
+    console.log("YES INDEED!");
   }
 }
 
