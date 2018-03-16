@@ -1,3 +1,3 @@
 function shout(scream) {
-  console.log(scream.uppercase());
+  console.log(scream.upcase());
 }
